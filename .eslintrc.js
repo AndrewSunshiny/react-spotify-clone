@@ -16,6 +16,7 @@ module.exports = {
     semi: 0,
     'max-len': 0,
     'no-param-reassign': 0,
+    'comma-dangle': ['error', 'only-multiline'],
     'jsx-a11y/label-has-associated-control': 0,
     'jsx-a11y/click-events-have-key-events': 0,
     'jsx-a11y/alt-text': 0,
