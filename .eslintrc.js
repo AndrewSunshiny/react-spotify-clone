@@ -14,6 +14,9 @@ module.exports = {
   plugins: ['react'],
   rules: {
     semi: 0,
+    indent: 0,
+    'arrow-body-style': 0,
+    'operator-linebreak': 0,
     'max-len': 0,
     'no-param-reassign': 0,
     'comma-dangle': ['error', 'only-multiline'],
